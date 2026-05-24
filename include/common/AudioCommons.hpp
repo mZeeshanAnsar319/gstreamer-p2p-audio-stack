@@ -10,7 +10,7 @@ enum class AudioBackend {
     PIPEWIRE
 };
 
-struct AudioCaptureConfig {
+struct AudioDevConfig {
     int sampleRate = 48000;
     int channels = 2;
     std::string deviceName;

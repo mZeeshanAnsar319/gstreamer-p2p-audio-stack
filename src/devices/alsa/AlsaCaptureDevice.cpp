@@ -4,7 +4,7 @@
 namespace audio {
 
 AlsaCaptureDevice::AlsaCaptureDevice(
-    const AudioCaptureConfig& config)
+    const AudioDevConfig& config)
     : m_config(config)
 {
 }
